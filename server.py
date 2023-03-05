@@ -9,7 +9,7 @@ import pdb
 import sys
 
 
-sys.path.insert(1, '/home/jinmin645/server/model/EfficientAT')
+sys.path.insert(1, '/home/solution-python2/model/EfficientAT')
 os.chdir("./model/EfficientAT")
 from model.EfficientAT.inference import inference
 os.chdir("../..")
